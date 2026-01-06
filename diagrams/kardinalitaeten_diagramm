@@ -1,0 +1,11 @@
+- **antragsteller → foerderantrag**: 1:n  
+  (Ein Landwirt kann mehrere Anträge stellen)
+
+- **foerderantrag → flaeche**: 1:n  
+  (Ein Antrag kann mehrere Flächen enthalten)
+
+- **foerderantrag → pruefung**: 1:n  
+  (Ein Antrag durchläuft mehrere Prüfungen)
+
+- **foerderantrag → auszahlung**: 1:1 (optional)  
+  (Ein bewilligter Antrag hat genau eine Auszahlung)
